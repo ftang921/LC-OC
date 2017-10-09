@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B6BFA881F8B4DFC00EA698B /* LC_OC_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFA871F8B4DFC00EA698B /* LC_OC_Test.m */; };
-		9B6BFA8F1F8B4E1600EA698B /* TwoSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFA8D1F8B4E1600EA698B /* TwoSumTest.m */; };
+		9B6BFA8F1F8B4E1600EA698B /* TwoSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFA8D1F8B4E1600EA698B /* TwoSumTests.m */; };
 		9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
 		9B8867AB1F8B25D00059DDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867AA1F8B25D00059DDFE /* main.m */; };
 		9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
@@ -32,7 +32,7 @@
 		9B6BFA851F8B4DFC00EA698B /* LC-OC-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LC-OC-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6BFA871F8B4DFC00EA698B /* LC_OC_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LC_OC_Test.m; sourceTree = "<group>"; };
 		9B6BFA891F8B4DFC00EA698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B6BFA8D1F8B4E1600EA698B /* TwoSumTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSumTest.m; sourceTree = "<group>"; };
+		9B6BFA8D1F8B4E1600EA698B /* TwoSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSumTests.m; sourceTree = "<group>"; };
 		9B8867A71F8B25D00059DDFE /* LC-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8867AA1F8B25D00059DDFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B8867B11F8B26E80059DDFE /* MoveZeros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZeros.m; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		9B6BFA861F8B4DFC00EA698B /* LC-OC-Test */ = {
 			isa = PBXGroup;
 			children = (
-				9B6BFA8D1F8B4E1600EA698B /* TwoSumTest.m */,
+				9B6BFA8D1F8B4E1600EA698B /* TwoSumTests.m */,
 				9B6BFA871F8B4DFC00EA698B /* LC_OC_Test.m */,
 				9B6BFA891F8B4DFC00EA698B /* Info.plist */,
 			);
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
-				9B6BFA8F1F8B4E1600EA698B /* TwoSumTest.m in Sources */,
+				9B6BFA8F1F8B4E1600EA698B /* TwoSumTests.m in Sources */,
 				9B6BFA881F8B4DFC00EA698B /* LC_OC_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
