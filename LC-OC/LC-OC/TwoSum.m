@@ -15,7 +15,7 @@
     for (int i = 0; i < [nums count]; i++) {
         NSInteger another = target - [(NSNumber *)nums[i] integerValue];
         if (numToIndex[@(another)]) {
-            NSInteger firstIndex = [numToIndex[@(another)] integerValue];
+            int firstIndex = [numToIndex[@(another)] intValue];
             return @[@(firstIndex), @(i)];
         } else {
             numToIndex[nums[i]] = @(i);
