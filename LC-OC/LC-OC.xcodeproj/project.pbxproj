@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B6BFA881F8B4DFC00EA698B /* LC_OC_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFA871F8B4DFC00EA698B /* LC_OC_Test.m */; };
-		9B6BFA8F1F8B4E1600EA698B /* TwoSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BFA8D1F8B4E1600EA698B /* TwoSumTests.m */; };
 		9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
 		9B8867AB1F8B25D00059DDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867AA1F8B25D00059DDFE /* main.m */; };
 		9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
 		9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
 		9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
+		B21935FF1F8B62DF009C8039 /* TwoSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21935FE1F8B62DF009C8039 /* TwoSumTests.m */; };
+		B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21936001F8B6594009C8039 /* MoveZerosTests.m */; };
+		B21936021F8B674E009C8039 /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
+		B21936041F8B6DC3009C8039 /* ValidParenthesesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */; };
+		B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +33,7 @@
 
 /* Begin PBXFileReference section */
 		9B6BFA851F8B4DFC00EA698B /* LC-OC-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LC-OC-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B6BFA871F8B4DFC00EA698B /* LC_OC_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LC_OC_Test.m; sourceTree = "<group>"; };
 		9B6BFA891F8B4DFC00EA698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B6BFA8D1F8B4E1600EA698B /* TwoSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSumTests.m; sourceTree = "<group>"; };
 		9B8867A71F8B25D00059DDFE /* LC-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8867AA1F8B25D00059DDFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B8867B11F8B26E80059DDFE /* MoveZeros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZeros.m; sourceTree = "<group>"; };
@@ -41,6 +42,9 @@
 		9B8867B41F8B26E80059DDFE /* MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveZeros.h; sourceTree = "<group>"; };
 		9B8867B51F8B26E80059DDFE /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
 		9B8867B61F8B26E80059DDFE /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
+		B21935FE1F8B62DF009C8039 /* TwoSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSumTests.m; sourceTree = "<group>"; };
+		B21936001F8B6594009C8039 /* MoveZerosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZerosTests.m; sourceTree = "<group>"; };
+		B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParenthesesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +68,10 @@
 		9B6BFA861F8B4DFC00EA698B /* LC-OC-Test */ = {
 			isa = PBXGroup;
 			children = (
-				9B6BFA8D1F8B4E1600EA698B /* TwoSumTests.m */,
-				9B6BFA871F8B4DFC00EA698B /* LC_OC_Test.m */,
+				B21936001F8B6594009C8039 /* MoveZerosTests.m */,
+				B21935FE1F8B62DF009C8039 /* TwoSumTests.m */,
 				9B6BFA891F8B4DFC00EA698B /* Info.plist */,
+				B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */,
 			);
 			path = "LC-OC-Test";
 			sourceTree = "<group>";
@@ -192,9 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */,
+				B21936021F8B674E009C8039 /* MoveZeros.m in Sources */,
+				B21936041F8B6DC3009C8039 /* ValidParenthesesTests.m in Sources */,
+				B21935FF1F8B62DF009C8039 /* TwoSumTests.m in Sources */,
+				B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */,
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
-				9B6BFA8F1F8B4E1600EA698B /* TwoSumTests.m in Sources */,
-				9B6BFA881F8B4DFC00EA698B /* LC_OC_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +333,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

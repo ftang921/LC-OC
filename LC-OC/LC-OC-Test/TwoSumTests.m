@@ -10,7 +10,12 @@
 
 #import "TwoSum.h"
 
-@interface TwoSumTest : XCTestCase
+@interface TwoSumTest : XCTestCase {
+@private
+    NSArray *nums;
+    NSInteger target;
+    NSArray *expected;
+}
 
 @end
 
@@ -18,8 +23,9 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-  
+    nums = @[@2, @7, @11, @15];
+    target = 13;
+    expected = @[@0, @2];
 }
 
 - (void)tearDown {
@@ -27,21 +33,10 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-    NSArray *nums = @[@2, @7, @11, @15];
-    NSInteger target = 13;
-    NSArray *result = [TwoSum twoSum:nums withTarget:target];
-    NSArray *expected = @[@0, @2];
-    XCTAssertEqualObjects(result, expected);
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testTwoSum {
+    NSArray *actual = [TwoSum twoSum:nums withTarget:target];
+    XCTAssertEqualObjects(actual, expected, @"two sum");
 }
 
 @end
+
