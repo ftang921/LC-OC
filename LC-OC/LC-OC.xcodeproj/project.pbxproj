@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B8867AB1F8B25D00059DDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867AA1F8B25D00059DDFE /* main.m */; };
+		9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
+		9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
+		9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		9B8867A71F8B25D00059DDFE /* LC-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8867AA1F8B25D00059DDFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B8867B11F8B26E80059DDFE /* MoveZeros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZeros.m; sourceTree = "<group>"; };
+		9B8867B21F8B26E80059DDFE /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
+		9B8867B31F8B26E80059DDFE /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
+		9B8867B41F8B26E80059DDFE /* MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveZeros.h; sourceTree = "<group>"; };
+		9B8867B51F8B26E80059DDFE /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
+		9B8867B61F8B26E80059DDFE /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				9B8867AA1F8B25D00059DDFE /* main.m */,
+				9B8867B41F8B26E80059DDFE /* MoveZeros.h */,
+				9B8867B11F8B26E80059DDFE /* MoveZeros.m */,
+				9B8867B31F8B26E80059DDFE /* TwoSum.h */,
+				9B8867B61F8B26E80059DDFE /* TwoSum.m */,
+				9B8867B21F8B26E80059DDFE /* ValidParentheses.h */,
+				9B8867B51F8B26E80059DDFE /* ValidParentheses.m */,
 			);
 			path = "LC-OC";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */,
+				9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */,
+				9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */,
 				9B8867AB1F8B25D00059DDFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
