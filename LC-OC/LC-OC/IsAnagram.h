@@ -10,6 +10,6 @@
 
 @interface IsAnagram : NSObject
 
-+ (BOOL)isAnagramForString:(NSString *)s andString:(NSString *)p;
++ (BOOL)isAnagramForString:(NSString *)s andString:(NSString *)t;
 
 @end
