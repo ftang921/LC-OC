@@ -12,28 +12,25 @@
 
 + (NSArray *)findAnagramsFromString:(NSString *)s forString:(NSString *)p {
     // put the number of each characters in p into dictionary
-    NSMutableDictionary *pCharToCountMap = [[NSMutableDictionary alloc] init];
+    NSInteger pCounterOfCharacters[256] = {0};
     for (int i = 0; i < [p length]; i++) {
         char c = [p characterAtIndex:i];
-        int oldCount = [pCharToCountMap[@(c)] intValue];
-        pCharToCountMap[@(c)] = @(oldCount + 1);
+        pCounterOfCharacters[c]++;
     }
     
     NSMutableArray *result = [[NSMutableArray alloc] init];
     // maintain a sliding window on s and check if the window contains all characters in p
-    NSMutableDictionary *sCharToCountMap = [[NSMutableDictionary alloc] init];
+    NSInteger sCounterOfCharacters[256] = {0};
     int start = 0, end = -1;
     while (++end < [s length]) {
         // increment the count of s[end]
         char endChar = [s characterAtIndex:end];
-        int oldCountOfEndChar = [sCharToCountMap[@(endChar)] intValue];
-        sCharToCountMap[@(endChar)] = @(oldCountOfEndChar + 1);
+        sCounterOfCharacters[endChar]++;
         
         // increment start until the characters in sliding window is a subset of characters in p
-        while ([sCharToCountMap[@(endChar)] intValue] > [pCharToCountMap[@(endChar)] intValue]) {
+        while (sCounterOfCharacters[endChar] > pCounterOfCharacters[endChar]) {
             char startChar = [s characterAtIndex:start];
-            int oldCountOfStartChar = [sCharToCountMap[@(startChar)] intValue];
-            sCharToCountMap[@(startChar)] = @(oldCountOfStartChar - 1);
+            sCounterOfCharacters[startChar]--;
             start++;
         }
         
