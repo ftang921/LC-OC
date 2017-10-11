@@ -23,6 +23,8 @@
 		B21936021F8B674E009C8039 /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
 		B21936041F8B6DC3009C8039 /* ValidParenthesesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */; };
 		B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
+		B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */; };
+		B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB21F8DF648000D1BAB /* IsAnagram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +62,7 @@
 		B21935FE1F8B62DF009C8039 /* TwoSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSumTests.m; sourceTree = "<group>"; };
 		B21936001F8B6594009C8039 /* MoveZerosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZerosTests.m; sourceTree = "<group>"; };
 		B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParenthesesTests.m; sourceTree = "<group>"; };
+		B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagramTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		9B6BFA861F8B4DFC00EA698B /* LC-OC-Test */ = {
 			isa = PBXGroup;
 			children = (
+				B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */,
 				9BCB14121F8DEE02008096EE /* FindAnagramsTests.m */,
 				B21936001F8B6594009C8039 /* MoveZerosTests.m */,
 				B21935FE1F8B62DF009C8039 /* TwoSumTests.m */,
@@ -222,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BCB14141F8DEE1F008096EE /* FindAnagrams.m in Sources */,
+				B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */,
 				9BCB14131F8DEE02008096EE /* FindAnagramsTests.m in Sources */,
 				B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */,
 				B21936021F8B674E009C8039 /* MoveZeros.m in Sources */,
@@ -229,6 +234,7 @@
 				B21935FF1F8B62DF009C8039 /* TwoSumTests.m in Sources */,
 				B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */,
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
+				B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
