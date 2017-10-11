@@ -28,6 +28,7 @@
 		B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
 		B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */; };
 		B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB21F8DF648000D1BAB /* IsAnagram.m */; };
+		B222FB231F8E00A80027CEAE /* ThirdMaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		B21936001F8B6594009C8039 /* MoveZerosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZerosTests.m; sourceTree = "<group>"; };
 		B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParenthesesTests.m; sourceTree = "<group>"; };
 		B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagramTests.m; sourceTree = "<group>"; };
+		B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdMaxTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */,
+				B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */,
 				B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */,
 				9BCB14121F8DEE02008096EE /* FindAnagramsTests.m */,
 				B21936001F8B6594009C8039 /* MoveZerosTests.m */,
@@ -241,6 +244,7 @@
 				B21935FF1F8B62DF009C8039 /* TwoSumTests.m in Sources */,
 				9B876B1B1F8E009D00B4A035 /* FirstUniqCharTests.m in Sources */,
 				B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */,
+				B222FB231F8E00A80027CEAE /* ThirdMaxTests.m in Sources */,
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
 				B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */,
 			);
