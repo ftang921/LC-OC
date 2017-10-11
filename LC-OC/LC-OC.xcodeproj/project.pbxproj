@@ -12,6 +12,7 @@
 		9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
 		9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
 		9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
+		9BB14AB31F8DF648000D1BAB /* IsAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB21F8DF648000D1BAB /* IsAnagram.m */; };
 		9BCB14111F8DEAFC008096EE /* FindAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCB14101F8DEAFC008096EE /* FindAnagrams.m */; };
 		9BCB14131F8DEE02008096EE /* FindAnagramsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCB14121F8DEE02008096EE /* FindAnagramsTests.m */; };
 		9BCB14141F8DEE1F008096EE /* FindAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCB14101F8DEAFC008096EE /* FindAnagrams.m */; };
@@ -45,6 +46,8 @@
 		9B8867B41F8B26E80059DDFE /* MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveZeros.h; sourceTree = "<group>"; };
 		9B8867B51F8B26E80059DDFE /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
 		9B8867B61F8B26E80059DDFE /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
+		9BB14AB11F8DF648000D1BAB /* IsAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsAnagram.h; sourceTree = "<group>"; };
+		9BB14AB21F8DF648000D1BAB /* IsAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsAnagram.m; sourceTree = "<group>"; };
 		9BCB140F1F8DEAFC008096EE /* FindAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindAnagrams.h; sourceTree = "<group>"; };
 		9BCB14101F8DEAFC008096EE /* FindAnagrams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindAnagrams.m; sourceTree = "<group>"; };
 		9BCB14121F8DEE02008096EE /* FindAnagramsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindAnagramsTests.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				9B8867B51F8B26E80059DDFE /* ValidParentheses.m */,
 				9BCB140F1F8DEAFC008096EE /* FindAnagrams.h */,
 				9BCB14101F8DEAFC008096EE /* FindAnagrams.m */,
+				9BB14AB11F8DF648000D1BAB /* IsAnagram.h */,
+				9BB14AB21F8DF648000D1BAB /* IsAnagram.m */,
 			);
 			path = "LC-OC";
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */,
+				9BB14AB31F8DF648000D1BAB /* IsAnagram.m in Sources */,
 				9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */,
 				9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */,
 				9B8867AB1F8B25D00059DDFE /* main.m in Sources */,
