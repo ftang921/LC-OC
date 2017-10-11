@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
+		9B876B1B1F8E009D00B4A035 /* FirstUniqCharTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */; };
+		9B876B1C1F8E00A800B4A035 /* FirstUniqChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB81F8DF7DD000D1BAB /* FirstUniqChar.m */; };
+		9B876B1D1F8E00AB00B4A035 /* ThirdMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB51F8DF740000D1BAB /* ThirdMax.m */; };
 		9B8867AB1F8B25D00059DDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867AA1F8B25D00059DDFE /* main.m */; };
 		9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
 		9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
@@ -42,6 +45,7 @@
 /* Begin PBXFileReference section */
 		9B6BFA851F8B4DFC00EA698B /* LC-OC-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LC-OC-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6BFA891F8B4DFC00EA698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstUniqCharTests.m; sourceTree = "<group>"; };
 		9B8867A71F8B25D00059DDFE /* LC-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8867AA1F8B25D00059DDFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B8867B11F8B26E80059DDFE /* MoveZeros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveZeros.m; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		9B6BFA861F8B4DFC00EA698B /* LC-OC-Test */ = {
 			isa = PBXGroup;
 			children = (
+				9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */,
 				B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */,
 				9BCB14121F8DEE02008096EE /* FindAnagramsTests.m */,
 				B21936001F8B6594009C8039 /* MoveZerosTests.m */,
@@ -225,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B876B1D1F8E00AB00B4A035 /* ThirdMax.m in Sources */,
+				9B876B1C1F8E00A800B4A035 /* FirstUniqChar.m in Sources */,
 				9BCB14141F8DEE1F008096EE /* FindAnagrams.m in Sources */,
 				B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */,
 				9BCB14131F8DEE02008096EE /* FindAnagramsTests.m in Sources */,
@@ -232,6 +239,7 @@
 				B21936021F8B674E009C8039 /* MoveZeros.m in Sources */,
 				B21936041F8B6DC3009C8039 /* ValidParenthesesTests.m in Sources */,
 				B21935FF1F8B62DF009C8039 /* TwoSumTests.m in Sources */,
+				9B876B1B1F8E009D00B4A035 /* FirstUniqCharTests.m in Sources */,
 				B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */,
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
 				B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */,
