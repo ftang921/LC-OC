@@ -11,7 +11,10 @@
 #import "ThirdMax.h"
 
 @interface ThirdMaxTests : XCTestCase
-  NSArray *nums;
+
+@property(nonatomic, readwrite, copy) NSArray *nums;
+@property(nonatomic, readwrite, assign) NSInteger expected;
+
 @end
 
 @implementation ThirdMaxTests
@@ -27,9 +30,10 @@
 }
 
 - (void)testThirdMax {
-  nums = @[@2, @7, @11, @15];
-  NSInteger result = [ThirdMax thirdMaxFromArray:nums];
-  XCTAssertEqual(11, result);
+    self.nums = @[@2, @7, @11, @15];
+    self.expected = 7;
+    NSInteger result = [ThirdMax thirdMaxFromArray:self.nums];
+    XCTAssertEqual(self.expected, result);
 }
 
 @end
