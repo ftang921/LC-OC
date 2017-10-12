@@ -8,6 +8,8 @@
 
 #import "RightSideView.h"
 
+#import "TreeNode.h"
+
 @implementation RightSideView
 
 + (NSArray *)rightSideView:(TreeNode *)root {

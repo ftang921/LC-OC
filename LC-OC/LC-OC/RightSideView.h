@@ -8,13 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TreeNode : NSObject
-
-@property(nonatomic, readwrite, assign) NSInteger val;
-@property(nonatomic, readwrite, strong) TreeNode *left;
-@property(nonatomic, readwrite, strong) TreeNode *right;
-
-@end
+@class TreeNode;
 
 @interface RightSideView : NSObject
 
