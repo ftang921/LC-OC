@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MoveZeros.h"
-#import "TwoSum.h"
-#import "ValidParentheses.h"
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello World!");

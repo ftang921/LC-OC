@@ -40,6 +40,12 @@
 		B222FB231F8E00A80027CEAE /* ThirdMaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */; };
 		B222FB261F8F35200027CEAE /* GreaterTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB251F8F35200027CEAE /* GreaterTreeTests.m */; };
 		B222FB271F8F35420027CEAE /* GreaterTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8631F8F2C8D003BA2B9 /* GreaterTree.m */; };
+		B222FB291F8F44960027CEAE /* ReverseListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB281F8F44960027CEAE /* ReverseListTests.m */; };
+		B222FB2A1F8F468D0027CEAE /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8601F8F2B40003BA2B9 /* TreeNode.m */; };
+		B222FB2C1F8F47DD0027CEAE /* ThreeSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB2B1F8F47DD0027CEAE /* ThreeSumTests.m */; };
+		B222FB2D1F8F49340027CEAE /* ThreeSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA86F1F8F3BF1003BA2B9 /* ThreeSum.m */; };
+		B222FB2E1F8F499C0027CEAE /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8691F8F2E9D003BA2B9 /* ReverseList.m */; };
+		B222FB2F1F8F49A40027CEAE /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8661F8F2E44003BA2B9 /* ListNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +103,8 @@
 		B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagramTests.m; sourceTree = "<group>"; };
 		B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdMaxTests.m; sourceTree = "<group>"; };
 		B222FB251F8F35200027CEAE /* GreaterTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreaterTreeTests.m; sourceTree = "<group>"; };
+		B222FB281F8F44960027CEAE /* ReverseListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseListTests.m; sourceTree = "<group>"; };
+		B222FB2B1F8F47DD0027CEAE /* ThreeSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeSumTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,8 @@
 		9B6BFA861F8B4DFC00EA698B /* LC-OC-Test */ = {
 			isa = PBXGroup;
 			children = (
+				B222FB2B1F8F47DD0027CEAE /* ThreeSumTests.m */,
+				B222FB281F8F44960027CEAE /* ReverseListTests.m */,
 				B222FB251F8F35200027CEAE /* GreaterTreeTests.m */,
 				9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */,
 				B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */,
@@ -284,17 +294,23 @@
 				B222FB271F8F35420027CEAE /* GreaterTree.m in Sources */,
 				9BCB14141F8DEE1F008096EE /* FindAnagrams.m in Sources */,
 				B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */,
+				B222FB2F1F8F49A40027CEAE /* ListNode.m in Sources */,
+				B222FB2E1F8F499C0027CEAE /* ReverseList.m in Sources */,
 				9BCB14131F8DEE02008096EE /* FindAnagramsTests.m in Sources */,
 				B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */,
 				B21936021F8B674E009C8039 /* MoveZeros.m in Sources */,
 				B21936041F8B6DC3009C8039 /* ValidParenthesesTests.m in Sources */,
+				B222FB2C1F8F47DD0027CEAE /* ThreeSumTests.m in Sources */,
 				B21935FF1F8B62DF009C8039 /* TwoSumTests.m in Sources */,
 				9B876B1B1F8E009D00B4A035 /* FirstUniqCharTests.m in Sources */,
 				B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */,
 				B222FB231F8E00A80027CEAE /* ThirdMaxTests.m in Sources */,
 				B222FB261F8F35200027CEAE /* GreaterTreeTests.m in Sources */,
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
+				B222FB291F8F44960027CEAE /* ReverseListTests.m in Sources */,
 				B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */,
+				B222FB2D1F8F49340027CEAE /* ThreeSum.m in Sources */,
+				B222FB2A1F8F468D0027CEAE /* TreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
