@@ -14,6 +14,6 @@
 @property(nonatomic, readwrite, strong) TreeNode *left;
 @property(nonatomic, readwrite, strong) TreeNode *right;
 
-- (id)initWithVal:(NSInteger)val left:(TreeNode *)left right:(TreeNode *)right;
++ (id)TreeNodeWithVal:(NSInteger)val left:(TreeNode *)left right:(TreeNode *)right;
 
 @end

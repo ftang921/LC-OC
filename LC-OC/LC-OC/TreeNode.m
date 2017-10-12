@@ -10,6 +10,10 @@
 
 @implementation TreeNode
 
++ (id)TreeNodeWithVal:(NSInteger)val left:(TreeNode *)left right:(TreeNode *)right {
+    return [[TreeNode alloc] initWithVal:val left:left right:right];
+}
+
 - (id)initWithVal:(NSInteger)val left:(TreeNode *)left right:(TreeNode *)right {
     if (self = [super init]) {
         _val = val;
