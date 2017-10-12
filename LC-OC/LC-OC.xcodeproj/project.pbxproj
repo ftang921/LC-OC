@@ -16,6 +16,7 @@
 		9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
 		9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
 		9BA0DF711F8F465B00417325 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8601F8F2B40003BA2B9 /* TreeNode.m */; };
+		9BA0DF741F8F47B000417325 /* SameTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0DF731F8F47B000417325 /* SameTree.m */; };
 		9BB14AB31F8DF648000D1BAB /* IsAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB21F8DF648000D1BAB /* IsAnagram.m */; };
 		9BB14AB61F8DF740000D1BAB /* ThirdMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB51F8DF740000D1BAB /* ThirdMax.m */; };
 		9BB14AB91F8DF7DD000D1BAB /* FirstUniqChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB81F8DF7DD000D1BAB /* FirstUniqChar.m */; };
@@ -65,6 +66,8 @@
 		9B8867B41F8B26E80059DDFE /* MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveZeros.h; sourceTree = "<group>"; };
 		9B8867B51F8B26E80059DDFE /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
 		9B8867B61F8B26E80059DDFE /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
+		9BA0DF721F8F47B000417325 /* SameTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SameTree.h; sourceTree = "<group>"; };
+		9BA0DF731F8F47B000417325 /* SameTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SameTree.m; sourceTree = "<group>"; };
 		9BB14AB11F8DF648000D1BAB /* IsAnagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsAnagram.h; sourceTree = "<group>"; };
 		9BB14AB21F8DF648000D1BAB /* IsAnagram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsAnagram.m; sourceTree = "<group>"; };
 		9BB14AB41F8DF740000D1BAB /* ThirdMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdMax.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				9BCFA86C1F8F33DA003BA2B9 /* ImageSmoother.m */,
 				9BCFA86E1F8F3BF1003BA2B9 /* ThreeSum.h */,
 				9BCFA86F1F8F3BF1003BA2B9 /* ThreeSum.m */,
+				9BA0DF721F8F47B000417325 /* SameTree.h */,
+				9BA0DF731F8F47B000417325 /* SameTree.m */,
 			);
 			path = "LC-OC";
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				9BCFA8671F8F2E44003BA2B9 /* ListNode.m in Sources */,
 				9BCFA86A1F8F2E9D003BA2B9 /* ReverseList.m in Sources */,
 				9BB14AB91F8DF7DD000D1BAB /* FirstUniqChar.m in Sources */,
+				9BA0DF741F8F47B000417325 /* SameTree.m in Sources */,
 				9B8867AB1F8B25D00059DDFE /* main.m in Sources */,
 				9BCB14111F8DEAFC008096EE /* FindAnagrams.m in Sources */,
 				9BCFA86D1F8F33DA003BA2B9 /* ImageSmoother.m in Sources */,
