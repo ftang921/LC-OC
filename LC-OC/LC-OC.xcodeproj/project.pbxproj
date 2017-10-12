@@ -34,6 +34,8 @@
 		B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */; };
 		B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB21F8DF648000D1BAB /* IsAnagram.m */; };
 		B222FB231F8E00A80027CEAE /* ThirdMaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */; };
+		B222FB261F8F35200027CEAE /* GreaterTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB251F8F35200027CEAE /* GreaterTreeTests.m */; };
+		B222FB271F8F35420027CEAE /* GreaterTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8631F8F2C8D003BA2B9 /* GreaterTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +86,7 @@
 		B21936031F8B6DC3009C8039 /* ValidParenthesesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParenthesesTests.m; sourceTree = "<group>"; };
 		B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidAnagramTests.m; sourceTree = "<group>"; };
 		B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdMaxTests.m; sourceTree = "<group>"; };
+		B222FB251F8F35200027CEAE /* GreaterTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreaterTreeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		9B6BFA861F8B4DFC00EA698B /* LC-OC-Test */ = {
 			isa = PBXGroup;
 			children = (
+				B222FB251F8F35200027CEAE /* GreaterTreeTests.m */,
 				9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */,
 				B222FB221F8E00A80027CEAE /* ThirdMaxTests.m */,
 				B222FB1F1F8DF49D0027CEAE /* ValidAnagramTests.m */,
@@ -260,6 +264,7 @@
 			files = (
 				9B876B1D1F8E00AB00B4A035 /* ThirdMax.m in Sources */,
 				9B876B1C1F8E00A800B4A035 /* FirstUniqChar.m in Sources */,
+				B222FB271F8F35420027CEAE /* GreaterTree.m in Sources */,
 				9BCB14141F8DEE1F008096EE /* FindAnagrams.m in Sources */,
 				B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */,
 				9BCB14131F8DEE02008096EE /* FindAnagramsTests.m in Sources */,
@@ -270,6 +275,7 @@
 				9B876B1B1F8E009D00B4A035 /* FirstUniqCharTests.m in Sources */,
 				B21936011F8B6594009C8039 /* MoveZerosTests.m in Sources */,
 				B222FB231F8E00A80027CEAE /* ThirdMaxTests.m in Sources */,
+				B222FB261F8F35200027CEAE /* GreaterTreeTests.m in Sources */,
 				9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */,
 				B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */,
 			);
