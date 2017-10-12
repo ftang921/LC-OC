@@ -15,6 +15,7 @@
 		9B8867B71F8B26E80059DDFE /* MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B11F8B26E80059DDFE /* MoveZeros.m */; };
 		9B8867B81F8B26E90059DDFE /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B51F8B26E80059DDFE /* ValidParentheses.m */; };
 		9B8867B91F8B26E90059DDFE /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
+		9BA0DF711F8F465B00417325 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8601F8F2B40003BA2B9 /* TreeNode.m */; };
 		9BB14AB31F8DF648000D1BAB /* IsAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB21F8DF648000D1BAB /* IsAnagram.m */; };
 		9BB14AB61F8DF740000D1BAB /* ThirdMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB51F8DF740000D1BAB /* ThirdMax.m */; };
 		9BB14AB91F8DF7DD000D1BAB /* FirstUniqChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB81F8DF7DD000D1BAB /* FirstUniqChar.m */; };
@@ -272,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA0DF711F8F465B00417325 /* TreeNode.m in Sources */,
 				9B876B1D1F8E00AB00B4A035 /* ThirdMax.m in Sources */,
 				9B876B1C1F8E00A800B4A035 /* FirstUniqChar.m in Sources */,
 				B222FB271F8F35420027CEAE /* GreaterTree.m in Sources */,

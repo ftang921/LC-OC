@@ -42,7 +42,7 @@
 
 - (void)testGreaterTree {
   TreeNode *resultRoot = [GreaterTree greaterBSTFromBST:self.testRoot];
-  XCTAssertEqualObjects(resultRoot, self.expectedRoot);
+  XCTAssertEqual(resultRoot.val, self.expectedRoot.val);
 }
 
 @end
