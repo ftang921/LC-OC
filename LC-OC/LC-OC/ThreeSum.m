@@ -13,7 +13,7 @@
 + (NSArray *)threeSum:(NSArray *)nums {
     // sort
     NSArray *sortedArray = [nums sortedArrayUsingComparator:^NSComparisonResult(NSNumber *num1, NSNumber *num2) {
-        return num1 < num2;
+        return [num1 intValue] > [num2 intValue];
     }];
     
     // let i be the index of the first number, use in subarray nums[i+1:]
@@ -31,8 +31,9 @@
             if (second > first + 1 && secondNumber == [(NSNumber *)sortedArray[second - 1] intValue]) {
                 second++;
             } else if (firstNumber + secondNumber + thirdNumber == 0) {
-                NSArray *solution = @[@(first), @(second), @(third)];
+                NSArray *solution = @[@(firstNumber), @(secondNumber), @(thirdNumber)];
                 [result addObject:solution];
+                second++;
             } else if (firstNumber + secondNumber + thirdNumber < 0) {
                 second++;
             } else {
@@ -40,7 +41,7 @@
             }
         }
     }
-    return nil;
+    return result;
 }
 
 @end

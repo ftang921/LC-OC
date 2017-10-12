@@ -22,8 +22,8 @@
 - (void)setUp {
   [super setUp];
   self.nums = @[@-1, @0, @1, @2, @-1, @-4];
-  self.expected = @[@[@-1, @0, @1],
-                    @[@-1, @-1, @2]];
+  self.expected = @[@[@-1, @-1, @2],
+                    @[@-1, @0, @1]];
 }
 
 - (void)tearDown {

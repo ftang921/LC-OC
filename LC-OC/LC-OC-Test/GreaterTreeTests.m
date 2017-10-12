@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 
 #import "GreaterTree.h"
+#import "SameTree.h"
 #import "TreeNode.h"
 
 @interface GreaterTreeTests : XCTestCase
@@ -41,8 +42,9 @@
 }
 
 - (void)testGreaterTree {
-  TreeNode *resultRoot = [GreaterTree greaterBSTFromBST:self.testRoot];
-  XCTAssertEqual(resultRoot.val, self.expectedRoot.val);
+    TreeNode *resultRoot = [GreaterTree greaterBSTFromBST:self.testRoot];
+    BOOL isSameTree = [SameTree isSameTreeForOneTree:resultRoot andAnotherTree:self.expectedRoot];
+    XCTAssertTrue(isSameTree);
 }
 
 @end

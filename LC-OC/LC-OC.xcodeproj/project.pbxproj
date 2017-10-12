@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1ED6D81F8F4D8900DA8FF7 /* SameTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0DF731F8F47B000417325 /* SameTree.m */; };
 		9B6BFA901F8B4E4800EA698B /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8867B61F8B26E80059DDFE /* TwoSum.m */; };
 		9B876B1B1F8E009D00B4A035 /* FirstUniqCharTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B876B1A1F8E009D00B4A035 /* FirstUniqCharTests.m */; };
 		9B876B1C1F8E00A800B4A035 /* FirstUniqChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB14AB81F8DF7DD000D1BAB /* FirstUniqChar.m */; };
@@ -41,7 +42,6 @@
 		B222FB261F8F35200027CEAE /* GreaterTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB251F8F35200027CEAE /* GreaterTreeTests.m */; };
 		B222FB271F8F35420027CEAE /* GreaterTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8631F8F2C8D003BA2B9 /* GreaterTree.m */; };
 		B222FB291F8F44960027CEAE /* ReverseListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB281F8F44960027CEAE /* ReverseListTests.m */; };
-		B222FB2A1F8F468D0027CEAE /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8601F8F2B40003BA2B9 /* TreeNode.m */; };
 		B222FB2C1F8F47DD0027CEAE /* ThreeSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222FB2B1F8F47DD0027CEAE /* ThreeSumTests.m */; };
 		B222FB2D1F8F49340027CEAE /* ThreeSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA86F1F8F3BF1003BA2B9 /* ThreeSum.m */; };
 		B222FB2E1F8F499C0027CEAE /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFA8691F8F2E9D003BA2B9 /* ReverseList.m */; };
@@ -296,6 +296,7 @@
 				B222FB201F8DF49D0027CEAE /* ValidAnagramTests.m in Sources */,
 				B222FB2F1F8F49A40027CEAE /* ListNode.m in Sources */,
 				B222FB2E1F8F499C0027CEAE /* ReverseList.m in Sources */,
+				9B1ED6D81F8F4D8900DA8FF7 /* SameTree.m in Sources */,
 				9BCB14131F8DEE02008096EE /* FindAnagramsTests.m in Sources */,
 				B21936051F8B7132009C8039 /* ValidParentheses.m in Sources */,
 				B21936021F8B674E009C8039 /* MoveZeros.m in Sources */,
@@ -310,7 +311,6 @@
 				B222FB291F8F44960027CEAE /* ReverseListTests.m in Sources */,
 				B222FB211F8DF90A0027CEAE /* IsAnagram.m in Sources */,
 				B222FB2D1F8F49340027CEAE /* ThreeSum.m in Sources */,
-				B222FB2A1F8F468D0027CEAE /* TreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
